@@ -4,6 +4,7 @@
 *.ppt?
 *.ppt
 *.odt
+*.ods
 *.doc?
 #ignore compiled files
 *.class
@@ -19,7 +20,7 @@
 *.BAK
 
 #Ignores for directories
-#
+blok1/*
 
 #Pregenerated Ignores for LaTeX
 
