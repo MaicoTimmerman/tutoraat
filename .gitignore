@@ -1,3 +1,28 @@
+#Ignores for filetypes
+#ignore college files
+*.pdf
+*.ppt?
+*.ppt
+*.odt
+*.doc?
+#ignore compiled files
+*.class
+*.py[cod]
+#ignore containers
+*.tar
+*.tar.gz
+#ignore executables
+*.sh
+*.exe
+#ignore backup files
+*~
+*.BAK
+
+#Ignores for directories
+#
+
+#Pregenerated Ignores for LaTeX
+
 *.acn
 *.acr
 *.alg
