@@ -18,6 +18,8 @@
 #ignore backup files
 *~
 *.BAK
+#ignore dropbox
+.dropbox
 
 #Ignores for directories
 blok1/*
