@@ -53,6 +53,10 @@
 
 %Frame 1
 \begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.3\textwidth]{lualogo}
+        \vspace{-20pt}
+    \end{figure}
     \maketitle
 \end{frame}
 
@@ -87,7 +91,6 @@
     \section{$ \Rightarrow $ Lua Syntax}
     \frametitle{Lua syntax}
     \begin{itemize}
-        \item{No $\lbrace$ $\rbrace$ ; and : in default syntax}
         \item{Commenting using \texttt{--comment} for comments:}
             \begin{lstlisting}[language=lua]
 --this is a comment!
@@ -96,7 +99,8 @@ function gcd(nom, den)
             \end{lstlisting}
         \item{\texttt{--[[comment]]} for multilinecomments:}
             \begin{lstlisting}[language=lua]
---[[ this is a long comment! ]]
+--[[ this is a multiline
+                    comment! ]]
 function gcd(nom, den)
     ...
             \end{lstlisting}
@@ -113,6 +117,7 @@ end
 \begin{frame}[fragile]
     \frametitle{Lua syntax}
     \begin{itemize}
+        \item{No $\lbrace$ $\rbrace$ ; and : in default syntax}
         \item{local variables need to be specified:}
             \begin{lstlisting}[language=lua]
 local thisVarIsLocal
